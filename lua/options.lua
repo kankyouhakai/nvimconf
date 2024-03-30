@@ -6,8 +6,7 @@ local options = {
 	autoindent = true,
 	tabstop = 4,
 	shiftwidth = 4,
-
-
+	completeopt = "menuone,noselect", --補完候補を表示
 }
 
 vim.opt.shortmess:append("c")
