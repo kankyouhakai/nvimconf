@@ -1,6 +1,6 @@
 vim.loader.enable()
 require("options")
-require("base")
+--require("base")
 require("keymaps")
 require("bootstrap")
 require("lazy").setup("plugins", 
@@ -21,5 +21,5 @@ require("lazy").setup("plugins",
 		},
 	},
 })
-
+require("base")
 

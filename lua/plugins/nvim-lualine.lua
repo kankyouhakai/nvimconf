@@ -7,10 +7,11 @@ end
 
 return {
 	"nvim-lualine/lualine.nvim",
+	--lazy = true,
 	dependencies = { "nvim-tree/nvim-web-devicons" },
 	opts = {
 		options = {
-			theme = 'nightfly',
+			theme = 'tokyonight',
 		},
 		sections = {
 			lualine_a = { 'mode' },
