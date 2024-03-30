@@ -2,5 +2,6 @@
 -- LSPのプラグインだよ
 return {
 	"neoclide/coc.nvim",
-	opt = {},
+	lazy = true,
+	event = "BufRead",
 }
