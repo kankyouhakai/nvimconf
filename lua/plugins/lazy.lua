@@ -2,5 +2,6 @@
 -- プラグインマネージャーだよ
 
 return {
-  "folke/lazy.nvim"
+  "folke/lazy.nvim",
+  lazy = false,
 }

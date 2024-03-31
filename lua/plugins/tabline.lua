@@ -2,6 +2,6 @@
 return {
 	"kdheepak/tabline.nvim",
 	lazy = true,
-	opt = {},
+	opts = {},
 }
 	
