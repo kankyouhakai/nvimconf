@@ -1,8 +1,8 @@
 vim.loader.enable()
-require("options")
---require("base")
-require("keymaps")
 require("bootstrap")
+require("base")
+require("options")
+require("keymaps")
 require("lazy").setup("plugins", 
 {
 	checker = {
@@ -21,5 +21,5 @@ require("lazy").setup("plugins",
 		},
 	},
 })
-require("base")
-
+--echo "hello"
+vim.cmd[[colorscheme tokyonight-night]]
