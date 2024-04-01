@@ -9,6 +9,7 @@ return {
 		 configs.setup({
           ensure_installed = { "c", "cpp", "lua", "vim", "javascript", "html", "typescript", "markdown" },
           sync_install = false,
+			additional_vim_regex_highlighting = false,
           highlight = { enable = true },
           indent = { enable = true },  
         })

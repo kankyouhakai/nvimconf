@@ -21,5 +21,4 @@ require("lazy").setup("plugins",
 		},
 	},
 })
---echo "hello"
 vim.cmd[[colorscheme tokyonight-night]]

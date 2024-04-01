@@ -16,6 +16,6 @@ keymap("i", "<C-s>", "<ESC>:w<CR>a", opts) --保存
 
 keymap("n", "<ESC><ESC>", ":<C-u>set nohlsearch<CR>", opts)
 
-keymap("i", "<CR>", "pumvisible() ? '<C-y>' : '<CR>'", { expr = true }) --補完表示時のEnterで補完を適用
-keymap("i", "<Down>", "pumvisible() ? '<C-n>' : '<Down>'", { expr = true }) --補完表示時の下矢印で補完候補を選択
-keymap("i", "<Up>", "pumvisible() ? '<C-p>' : '<Up>'", { expr = true }) --補完表示時の上矢印で補完候補を選択
+--補完表示時のEnterで改行をしない
+keymap("i", "<CR>", "pumvisible() ? '<C-y>' : '<CR>'", { expr = true })
+
