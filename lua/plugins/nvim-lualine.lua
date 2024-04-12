@@ -7,7 +7,8 @@ end
 
 return {
 	"nvim-lualine/lualine.nvim",
-	--lazy = true,
+	lazy = true,
+	event = "BufReadPre",
 	dependencies = { "nvim-tree/nvim-web-devicons" },
 	opts = {
 		options = {

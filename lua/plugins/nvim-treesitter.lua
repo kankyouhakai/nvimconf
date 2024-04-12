@@ -2,12 +2,12 @@
 return {
 	"nvim-treesitter/nvim-treesitter",
 	lazy = true,
-	event = "BufRead",
+	event = "BufReadPre",
 	config = function()
 		local configs = require("nvim-treesitter.configs")
 
 		 configs.setup({
-          ensure_installed = { "c", "cpp", "lua", "vim", "javascript", "html", "typescript", "markdown" },
+          ensure_installed = { "c", "cpp", "lua", "vim", "javascript", "html", "typescript", "markdown", "rust", "vue" },
           sync_install = false,
 			additional_vim_regex_highlighting = false,
           highlight = { enable = true },
