@@ -3,9 +3,9 @@ local options = {
 	fileencoding = "utf-8",
 	hlsearch = true,
 	number = true,
-	autoindent = true,
-	tabstop = 4,
-	shiftwidth = 4,
+	--autoindent = true,
+	--tabstop = 4,
+	--shiftwidth = 4,
 	--	showtabline = 2
 	completeopt = "menuone,noselect", --補完候補を表示
 }

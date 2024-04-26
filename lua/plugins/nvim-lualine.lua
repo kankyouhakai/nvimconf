@@ -18,7 +18,7 @@ return {
 			lualine_a = { 'mode' },
 			lualine_b = { 'branch', 'diff', 'diagnostics' },
 			lualine_c = { 'filename' },
-			lualine_x = { 'encoding', 'progress' },
+			lualine_x = { 'progress' },
 			lualine_y = { 'filetype' },
 			lualine_z = { 'filesize' },
 		},
