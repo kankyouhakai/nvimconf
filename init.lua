@@ -21,4 +21,5 @@ require("lazy").setup("plugins",
 		},
 	},
 })
+vim.g.tokyonight_colors = { border = "orange" }
 vim.cmd[[colorscheme tokyonight-night]]
