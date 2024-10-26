@@ -3,7 +3,7 @@
 return {
 	"neoclide/coc.nvim",
 	lazy = true,
-	event = "BufReadPre",
+	event = "VimEnter",
 	keys = {
 		{ mode = "n", "<leader>rn", "<Plug>(coc-rename)" },
 		{ mode = "n", "<leader>gd", "<Plug>(coc-definition)" },

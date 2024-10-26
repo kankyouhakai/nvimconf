@@ -2,7 +2,7 @@
 return {
 	"nvim-treesitter/nvim-treesitter",
 	lazy = true,
-	event = "UIEnter",
+	event = "VimEnter",
 	config = function()
 		local configs = require("nvim-treesitter.configs")
 

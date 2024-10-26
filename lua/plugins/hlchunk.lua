@@ -1,8 +1,11 @@
 return {
 	"shellRaining/hlchunk.nvim",
-	event = { "UIEnter" },
+	event = { "VimEnter" },
 	opts = {
 		chunk = {
+            enable = true,
+            use_treesitter = true,
+            [[
 			chars = {
 				horizontal_line = "─",
 				vertical_line = "│",
@@ -10,7 +13,9 @@ return {
 				left_bottom = "└",
 				right_arrow = ">",
 			},
+            ]],
 		style = "#00ffff",
+        delay = 0,
 		},
 	},
 }
