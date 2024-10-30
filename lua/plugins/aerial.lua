@@ -1,6 +1,7 @@
 -- アウトラインを表示する
 return {
     "stevearc/aerial.nvim",
+    lazy = true,
     opts = {},
 
     depends = {
