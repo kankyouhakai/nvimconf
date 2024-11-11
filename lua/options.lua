@@ -10,9 +10,11 @@ local options = {
 	expandtab = true,
 	--	showtabline = 2
 	completeopt = "menuone,noselect", --補完候補を表示
+    pumblend = 20,
 }
 
 vim.opt.shortmess:append("c")
+
 
 for k, v in pairs(options) do
 	vim.opt[k] = v
