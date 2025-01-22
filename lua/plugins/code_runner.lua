@@ -2,6 +2,9 @@ return {
     "CRAG666/code_runner.nvim",
     lazy = true,
     cmd = { "RunCode" },
+    keys = {
+        { mode = "n", "<leader><space>", "<cmd>RunCode<CR>" },
+    },
     opts = {
         filetype = {
             haskell = {
