@@ -24,3 +24,5 @@ keymap("i", "<S-TAB>", [[coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"]], {sile
 keymap("n", "V", "<C-v>", opts) --ビジュアルモード
 
 keymap("n", "<leader>gd", "<Plug>(coc-definition)", opts)
+
+keymap("n", ";", ":", opts)

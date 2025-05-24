@@ -16,6 +16,10 @@ return {
                 "cd $dir &&",
                 "php $fileName"
             },
+            tla = {
+                "cd $dir &&",
+                "apalache-mc check $fileName"
+            },
         },
     },
 }

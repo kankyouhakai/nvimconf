@@ -11,6 +11,7 @@ local options = {
 	--	showtabline = 2
 	completeopt = "menuone,noselect", --補完候補を表示
     pumblend = 20,
+    clipboard = "unnamedplus", -- system clipboard
 }
 
 vim.opt.shortmess:append("c")

@@ -1,14 +1,10 @@
 -- lua/plugins/nvim-lualin.lua
 -- ステータスラインのカスタマイズをするよ
 
-local function temp()
-	return os.execute("vcgencmd measure_temp")
-end
-
 return {
 	"nvim-lualine/lualine.nvim",
 	lazy = true,
-	event = "BufReadPre",
+	event = "VimEnter",
 	dependencies = { "nvim-tree/nvim-web-devicons" },
 	opts = {
 		options = {
